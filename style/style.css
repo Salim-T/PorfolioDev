@@ -1,0 +1,482 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', 'Arial', Sans-serif;
+    height: auto;
+
+}
+
+/* body{
+    background-color: #bae1ff;
+} */
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    list-style:none;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------menu--------------------------------------
+---------------------------------------------------------------------------*/
+header{
+    height: 110px;
+    /* margin: 0 50px 0 100px; */
+    /* background-color:rgb(124, 131, 129); */
+}
+
+h1{
+	font-size: 45px;
+}
+
+.orange{
+	color: #bae1ff;
+}
+
+header h1{
+	float: left;
+	margin-top: 20px;
+    margin-left: 50px;
+}
+
+header nav{
+	float: right;
+	margin-top: 45px;
+}
+
+header nav ul li{
+	margin-right: 40px;
+	float: left;
+}
+
+header nav ul li a{
+	text-transform: uppercase;
+    font-size: 1.1em;
+	font-weight: bold;
+}
+
+header nav ul li a:hover{
+	color: #83cf94;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------accueil-----------------------------------
+---------------------------------------------------------------------------*/
+
+/* Titre */
+
+#welcome{
+    width: 100%;
+    height: 300px;
+    background: url('../images/work.jpg');
+    background-size: cover; 
+}
+
+#welcome h2{
+    color: white;
+    font-size: 4.3em;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+
+
+div#btsExplication{
+    margin-top: 40px;
+}
+
+div#btsExplication h1{
+    text-align: center;
+}
+
+/* .maDiv{
+    margin-left: 20px;
+    width: 350px;
+    height: 100%;
+    background-color: rgba(209, 203, 203,0.2);
+    border-radius: 9px;
+    float: left;
+} */
+
+#containerMaDiv{
+    display: flex;
+    margin-top: 50px;
+}
+
+.maDiv{
+    width: 350px;
+    
+}
+
+
+/*---------------------------------------------------------------------------
+-----------------------------------CV----------------------------------------
+---------------------------------------------------------------------------*/
+
+/*DIV GAUCHE*/
+
+#colle{
+    float: right;
+}
+
+section#gauche{
+    width: 30%;
+    height: 100;
+    float: left;
+}
+
+div#contact{
+    margin: 60px 0 0 50px;
+}
+
+#gauche h1{
+    font-weight: normal;
+    margin-bottom:10px;
+}
+
+div.barre{
+    height: 3px;
+    width: 290px;
+    background-color: white;
+    margin-bottom:20px;
+    
+}
+
+div#competence{
+    margin: 30px 0 0 50px;
+}
+
+div#flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 0;
+}
+
+
+div#langage{
+    margin: 30px 0 0 50px;
+}
+
+#listecomp{
+    list-style: none;
+}
+
+div#centreInteret{
+    margin: 30px 0 0 50px;
+}
+
+#listeint{
+    list-style: none;
+}
+
+/*DIV DROITE*/
+
+section#droite{
+    width: 70%;
+    float: left;
+}
+
+#titreCv{
+    /* height: auto; */
+    padding: 50px 0 50px 0;
+    
+}
+
+#titreCv h1{
+    text-transform:uppercase;
+    font-size: 4em;
+    text-align: center;
+}
+
+
+
+#titreCv h2{
+    text-align: center;
+}
+
+
+
+section#droite div#professionel{
+    padding: 60px 0 0 100px; 
+}
+
+/*LES TABLEAUX*/
+
+table, td{
+    
+    text-align: center;
+    margin: 10px 0 20px 0;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 20px;
+    
+}
+
+tr#up{
+    border-top: silver;
+}
+
+section#droite h1, h2{
+    font-weight: normal;
+}
+
+td.annee{
+    border-right: rgb(129, 133, 132) 3px solid;
+    width: 100px;
+}
+
+td.detailComp{
+    text-align: left;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------Complementaire----------------------------
+---------------------------------------------------------------------------*/
+
+.container{
+    width: 70%;
+    margin: 70px 200px 30px 200px;
+    /* border: 3px solid rgb(124, 131, 129);; */
+    border-radius: 9px;
+    padding-top: 30px;
+}
+
+
+.container #easyvistaExplanation p{
+    margin-left: 90px;
+    margin-right: 80px;
+    margin-bottom:40px
+}
+
+#easyvistaTitre{
+    margin-left: 220px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(9, 9, 100);
+}
+
+.container h3.titreTheme{
+    margin-top: 0px ;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.technicienInformatique{
+    margin: 20px 20px 0 80px;
+}
+
+.capture{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#titreComp1{
+    margin-bottom: 20px;
+}
+
+#titreComp2{
+    margin-top: 30px;
+}
+
+.container span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------Stage----------------------------
+---------------------------------------------------------------------------*/
+#stage{
+    text-align: center;
+}
+
+img.bordureImageCapture{
+    border: 2px solid black;
+    margin-bottom: 45px;
+}
+
+
+#stage .container{
+    padding-bottom: 40px;
+    background-color: antiquewhite;
+}
+
+#DMF{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#DMF .titre{
+    margin-bottom: 30px;
+}
+
+#dmfTitre1{
+    margin-left: 265px;
+    padding: 3px 10px 0 10px;
+    width: 345px;
+}
+
+#dmfTitre1 #img2{
+    margin-bottom: 6px;
+}
+.imagesStationF{
+    border: black 2px solid;
+}
+
+#stage h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container .margeText p{
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+#stage h3.titreTheme,#VeilleTechno h3.titreTheme{
+    margin-bottom: 30px;
+}
+
+.container .margeText li{
+    margin-left: 90px;
+    margin-right: 80px;
+}
+
+
+/* #carroussel{ 
+    margin-left: 200px;
+}*/
+
+.imageStage{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+.imageStage img{
+    border: black 2px solid;
+}
+
+.listeStage{
+    margin-top: 30px;
+}
+
+.listeStage li{
+    margin-bottom: 15px;
+}
+
+#airtable p{
+    margin-bottom: 15px;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------Ap----------------------------
+---------------------------------------------------------------------------*/
+
+.titre{
+    color: #97daa4;;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 6em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#missionSection #explicMission{
+    text-align: center;
+    margin: 60px 200px 0;
+}
+
+#missionFlex{
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
+
+} 
+
+.missions{
+    height: auto;
+    width: 700px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    text-align: center;
+    margin: 80px auto 80px;
+}
+
+.missions img{
+    margin-bottom: 45px;
+}
+
+.missions h3{
+    margin: 30px 0;
+}
+
+/*---------------------------------------------------------------------------
+-----------------------------------VEILLE TECHNO----------------------------
+---------------------------------------------------------------------------*/
+#VeilleTechno{
+    text-align: center;
+    
+}
+
+#VeilleTechno .container{
+    background: #ffb3ba;
+    margin-bottom: 20px;
+}
+
+#VeilleTechno .container .margeText{
+    margin-bottom: 20px;
+}
+
+#VeilleTechno .container .margeText p{
+    margin-bottom: 20px;
+}
+
+#VeilleTechno .container h4{
+    margin-bottom: 30px;
+}
+
+
+/*---------------------------------------------------------------------------
+-----------------------------------PIED PAGE----------------------------
+---------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------
+-----------------------------------Accueil----------------------------
+---------------------------------------------------------------------------*/
+
+#bodyAccueil .container h3.titreTheme{
+    margin-bottom: 20px ;
+    text-align: center;
+}
+
+#Deploiement .container{
+    background: antiquewhite;
+    text-align: center;
+}
+
+#Deploiement .container .margeText .titreTheme{
+    margin-bottom: 20px;
+}
+
+.imageStage img{
+    border: black 2px solid;
+}
+
+#scrum{
+    background-color: white;
+    margin-top: 50px;
+}
+
+#marge{
+    text-align: center;
+    margin-right: 80px;
+}
